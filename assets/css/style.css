@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.align-item-center{
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col-8 {
+    width: 66.66%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-4 {
+    width: 33.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.d-flex {
+    display: flex;
+}
+.j-c-b {
+    justify-content: space-between;
+}
+.startup {
+    color: var(--Colors-Heading, #1E0E62);
+text-align: center;
+font-family: 'DM Sans' ,sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.293px;
+}
+.text-s {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: 'DM Sans' ,sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+.head-1 {
+    color: #1E0E62;
+font-family: 'DM Sans' ,sans-serif;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: -0.4px;
+}
+.border {
+    width: 470px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 100px;
+border: 2px solid var(--Colors-Grey, #EBEAED);
+}
+.font-s {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family:' DM Sans' ,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+padding-left: 15px;
+}
+.background {
+    width: 470px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 100px;
+background: var(--Action-Primary, #25DAC5);
+border: none;
+}
+
+.pra {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+padding-left: 30px;
+font-family: 'DM Sans' ,sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.gap-35 {
+    gap: 35px;
+}
+.sign_up{
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+font-family: 'DM Sans' ,sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+    border: none;
+    width: 100px;
+height: 40.104px;
+flex-shrink: 0;
+    border-radius: 100px;
+background: none;
+    text-align: center;
+}
+.sign_up:hover{
+    background-color: #25DAC5;
+    color: white;   
+}
+.login {
+    color:#A1A1B0;
+    width: 100px;
+    height: 40.104px;
+    flex-shrink: 0;
+        border-radius: 100px;
+font-family:' DM Sans' ,sans-serif;
+font-size: 18px;
+text-align: center;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+border: none;
+background-color:transparent;
+}
+.login:hover {
+    background-color: #25DAC5;
+    color: white;
+}
+.background {
+    width: 470px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 100px;
+background: var(--Action-Primary, #25DAC5);
+border: none;
+}
+.sign-in {
+    color: var(--Colors-White, #FFF);
+text-align: center;
+font-family:' DM Sans' ,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; 
+}
+.sign-in:hover {
+    background-color:white;
+    color: #25DAC5;
+    border: 2px solid #25DAC5;
+}
+.pad-t-70 {
+    padding-top: 70px;
+}
+.p-t-100 {
+    padding-top: 100px;
+}
+.align-item-center{
+    align-items: center;
+}
+.gap-10 {
+    gap: 10px;
+}
+.margin-t {
+    margin-top: 80px;
+}
+.m-t-30 {
+    margin-top: 30px;
+}
+.img {
+    width: 100%;
+}
+.j-c-c {
+    display: flex;
+    justify-content: center;
+}
+.pra-2 {
+    color: var(--Colors-Text, rgba(21, 20, 57, 0.40));
+    font-family: 'DM Sans' ,s ;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 15px;  
+}
+.posit-r {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 27%;
+    left: 41%;
+  }
+  .icon {
+    width: 50px;
+  }
